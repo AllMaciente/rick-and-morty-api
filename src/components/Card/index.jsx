@@ -81,8 +81,7 @@ export default function Card() {
     }
     if (status == "dead") {
       return <span className="status_icon dead"></span>;
-    }
-    if (status == "unknown") {
+    } else {
       return <span className="status_icon unknown"></span>;
     }
   }
