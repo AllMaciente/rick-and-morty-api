@@ -1,0 +1,19 @@
+#card {
+  display: flex;
+  background-color: #444444;
+  color: #d1d1d1;
+  border-radius: 25px;
+  /* align-items: center; */
+}
+#card img {
+  width: 12vw;
+}
+#card .info {
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#card {
+}
