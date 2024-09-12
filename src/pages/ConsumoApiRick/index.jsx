@@ -88,13 +88,15 @@ export default function ConsumoApiRick() {
     <div id="RickPage">
       <div className="filter">
         <LoadButtons />
-        <div className="filter-name">
+        <div className="form">
           <input
+            className="input"
             type="text"
             placeholder="Name"
             value={name}
             onChange={(event) => setName(event.target.value)}
           />
+          <span className="input-border"></span>
         </div>
       </div>
       <div className="grid">{conteudo}</div>
